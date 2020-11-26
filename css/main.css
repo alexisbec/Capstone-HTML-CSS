@@ -1,0 +1,42 @@
+header {
+    background-color: #666;
+}
+
+.navbar-img {
+    max-width: 20em;
+    width: 100%;
+}
+
+.btn-group {
+    font-family: 'Nunito', sans-serif;
+}
+
+.main {
+    background-image: url(../assets/background.png);
+    background-size: cover;
+    height: 90vh;
+}
+
+.title {
+    font-family: 'Nunito', sans-serif;
+}
+
+.title > h2 {
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+.title > h1 {
+    font-size: 6vw;
+    padding: 0.5em 0 0.8em 0;
+}
+
+.info {
+    font-size: 4vw;
+    border: 3px solid white;
+    padding: 1em;
+}
+
+.activities {
+    background-image: url(../assets/background-2.png);
+}
