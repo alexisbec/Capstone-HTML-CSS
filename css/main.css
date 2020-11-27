@@ -1,5 +1,12 @@
+.profile-nav {
+    font-family: 'Nunito', sans-serif;
+}
+
 header {
     background-color: #666;
+}
+
+header > div {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -73,10 +80,6 @@ a:hover {
 .partners-logos > img {
     width: auto;
     height: 8vh;
-}
-
-footer {
-    background: black;
 }
 
 .footer-img > img {

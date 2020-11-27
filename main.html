@@ -12,9 +12,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="col-xs d-flex align-items-center">
+    <div class="profile-nav bg-dark p-1 d-none d-lg-block">
+        <div class="container d-flex justify-content-end">
+            <i class="fab fa-facebook-f text-secondary"></i>
+            <i class="fab fa-twitter ml-4 text-secondary"></i>
+            <a class="ml-4 text-secondary">Language</a>
+            <a class="ml-4 text-secondary">My Profile</a>
+            <a class="ml-4 text-secondary">Logout</a>
+        </div>
+    </div>
+    <header class="sticky-top">
+        <div class="container d-lg-none">
+            <div class="d-flex align-items-center">
                 <div class="navbar-img mr-auto p-l-2">
                     <a href="main.html"><img src="assets/logo.png" alt="logo" class="w-25"></a>
                 </div>
@@ -25,9 +34,21 @@
                         </div>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right border-0 bg-transparent">
-                        <button class="dropdown-item font-weight-bolder bg-secondary text-white p-1 m-1" type="button">About</button>
-                        <button class="dropdown-item font-weight-bolder bg-secondary text-white p-1 m-1" type="button">Tickets</button>
+                        <button class="dropdown-item font-weight-bolder bg-secondary text-white p-3 m-1" type="button">About</button>
+                        <button class="dropdown-item font-weight-bolder bg-secondary text-white p-3 m-1" type="button">Tickets</button>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-none d-lg-block">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="navbar-img mr-auto p-l-2">
+                    <a href="main.html"><img src="assets/logo.png" alt="logo" class="w-25"></a>
+                </div>
+                <div class="navbar-info">
+                    <a href="" class="text-white text-decoration-none ml-4 btn">About</a>
+                    <a href="" class="text-white text-decoration-none ml-4 btn">Tickets</a>
+                    <button type="button" class="btn btn-secondary ml-4">Get Tickets</button>
                 </div>
             </div>
         </div>
@@ -135,7 +156,7 @@
             <button type="button" class="btn btn-dark text-capitalize mb-5">see all the artists</button>
         </div>
     </section>
-    <section class="partners">
+    <section class="partners pb-3">
         <h2 class="sr-only">Colaborations</h2>
         <div class="d-flex align-items-center justify-content-center">
             <h2 class="mt-5 font-weight-bold text-white border-bottom border-primary pb-3 mb-5">Colaborations</h2>
@@ -148,7 +169,7 @@
             <img class="m-4" src="assets/vertigo-logo.png" alt="vertigo-logo">
         </div>
     </section>
-    <footer class="p-5">
+    <footer class="p-5 bg-dark">
         <div class="container d-flex align-items-center mx-auto">
             <div class="footer-img col-lg-4">
                 <img src="assets/logo.png">
