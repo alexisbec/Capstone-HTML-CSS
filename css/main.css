@@ -59,3 +59,18 @@ header {
 .art-info {
     font-size: 0.9em;
 }
+
+.partners {
+    background-image: url(../assets/background-3.png);
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+}
+
+.partners-logos > img {
+    width: auto;
+    height: 8vh;
+}
+
+footer {
+    background: #777;
+}
