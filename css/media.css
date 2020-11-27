@@ -18,6 +18,14 @@
     .art-info {
         font-size: 1.1em;
     }
+
+    .footer-img > img {
+        width: 15vw;
+    }
+
+    .footer-info {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width: 425px) and (max-width: 1024px) {
@@ -35,5 +43,9 @@
     
     .art-img > img {
         width: 13vh;
+    }
+
+    .footer-info {
+        font-size: 1.1em;
     }
 }

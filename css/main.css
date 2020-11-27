@@ -3,6 +3,10 @@ header {
     font-family: 'Nunito', sans-serif;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 .navbar-img {
     max-width: 20em;
     width: 100%;
@@ -72,5 +76,14 @@ header {
 }
 
 footer {
-    background: #777;
+    background: black;
+}
+
+.footer-img > img {
+    width: 25vw;
+}
+
+.footer-info {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.8em;
 }
