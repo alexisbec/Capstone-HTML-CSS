@@ -67,6 +67,10 @@
         font-size: 1.5vw;
     }
 
+    .history {
+        font-size: 1.8vw;
+    }
+
     .previous-title > h2 {
         font-size: 3vw;
     }
@@ -87,6 +91,10 @@
 
     .contact {
         font-size: 2.5vw;
+    }
+
+    .history {
+        font-size: 3vw;
     }
 
     .previous-title > h2 {

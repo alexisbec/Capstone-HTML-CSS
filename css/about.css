@@ -105,6 +105,15 @@ a:hover {
   text-shadow: 2px 2px 2px white;
 }
 
+.history {
+    font-family: 'Nunito', sans-serif;
+    font-size: 4.5vw;
+}
+
+.hist-img > img {
+  width: 70%;
+}
+
 .previous {
     font-family: 'Nunito', sans-serif;
 }
