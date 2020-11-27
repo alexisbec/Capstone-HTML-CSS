@@ -1,5 +1,6 @@
 header {
     background-color: #666;
+    font-family: 'Nunito', sans-serif;
 }
 
 .navbar-img {
@@ -15,9 +16,6 @@ header {
     background-image: url(../assets/background.png);
     background-size: cover;
     height: 90vh;
-}
-
-.title {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -37,6 +35,27 @@ header {
     padding: 1em;
 }
 
-.activities {
+.act {
     background-image: url(../assets/background-2.png);
+    background-size: cover;
+    height: 50vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.art {
+    background-color: white;
+    height: 80vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.art-img > img {
+    width: 12vh;
+}
+
+.art-info {
+    font-size: 0.9em;
 }

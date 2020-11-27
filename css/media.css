@@ -10,9 +10,17 @@
     .info {
         font-size: 1.5vw;
     }
+
+    .art-img > img {
+        width: 13vh;
+    }
+
+    .art-info {
+        font-size: 1.1em;
+    }
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (min-width: 425px) and (max-width: 1024px) {
     .title > h2 {
         font-size: 4vw;
     }
@@ -23,5 +31,9 @@
     
     .info {
         font-size: 3vw;
+    }
+    
+    .art-img > img {
+        width: 13vh;
     }
 }
