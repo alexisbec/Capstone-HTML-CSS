@@ -1,51 +1,51 @@
 @media screen and (min-width: 1024px) {
-    .title > h2 {
-        font-size: 2.5vw;
-    }
-    
-    .title > h1 {
-        font-size: 3.5vw;
-    }
-    
-    .info {
-        font-size: 1.5vw;
-    }
+  .title > h2 {
+    font-size: 2.5vw;
+  }
 
-    .art-img > img {
-        width: 13vh;
-    }
+  .title > h1 {
+    font-size: 3.5vw;
+  }
 
-    .art-info {
-        font-size: 1.1em;
-    }
+  .info {
+    font-size: 1.5vw;
+  }
 
-    .footer-img > img {
-        width: 15vw;
-    }
+  .art-img > img {
+    width: 13vh;
+  }
 
-    .footer-info {
-        font-size: 1.2em;
-    }
+  .art-info {
+    font-size: 1.1em;
+  }
+
+  .footer-img > img {
+    width: 15vw;
+  }
+
+  .footer-info {
+    font-size: 1.2em;
+  }
 }
 
 @media screen and (min-width: 425px) and (max-width: 1024px) {
-    .title > h2 {
-        font-size: 4vw;
-    }
-    
-    .title > h1 {
-        font-size: 5vw;
-    }
-    
-    .info {
-        font-size: 3vw;
-    }
-    
-    .art-img > img {
-        width: 13vh;
-    }
+  .title > h2 {
+    font-size: 4vw;
+  }
 
-    .footer-info {
-        font-size: 1.1em;
-    }
+  .title > h1 {
+    font-size: 5vw;
+  }
+
+  .info {
+    font-size: 3vw;
+  }
+
+  .art-img > img {
+    width: 13vh;
+  }
+
+  .footer-info {
+    font-size: 1.1em;
+  }
 }
