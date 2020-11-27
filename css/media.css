@@ -1,3 +1,5 @@
+/* Main Page */
+
 @media screen and (min-width: 1024px) {
   .title > h2 {
     font-size: 2.5vw;
@@ -28,7 +30,7 @@
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 1024px) {
+@media screen and (min-width: 426px) and (max-width: 1024px) {
   .title > h2 {
     font-size: 4vw;
   }
@@ -48,4 +50,61 @@
   .footer-info {
     font-size: 1.1em;
   }
+}
+
+/* About Page */
+
+@media screen and (min-width: 1024px) {
+    .about-title > h2 {
+        font-size: 3vw;
+    }
+
+    .info-about {
+        font-size: 1.8vw;
+    }
+
+    .contact {
+        font-size: 1.5vw;
+    }
+
+    .previous-title > h2 {
+        font-size: 3vw;
+    }
+    
+    .previous-title > p{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+    .about-title > h2 {
+        font-size: 4vw;
+    }
+
+    .info-about {
+        font-size: 3vw;
+    }
+
+    .contact {
+        font-size: 2.5vw;
+    }
+
+    .previous-title > h2 {
+        font-size: 4vw;
+    }
+    
+    .previous-title > p{
+        font-size: 3vw;
+    }
+}
+
+
+/* Tickets Page */
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+    
 }

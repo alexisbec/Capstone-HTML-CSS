@@ -1,0 +1,144 @@
+.loader_container {
+    background-color: #777;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    transition: all 3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader,
+.loader::before,
+.loader::after {
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    animation: loader 3s infinite ease-in-out;
+}
+
+.loader {
+    color: #555;
+    font-size: 1.5em;
+    position: relative;
+    animation-delay: -0.16s;
+}
+
+.loader::before,
+.loader::after {
+    content: '';
+    position: absolute;
+    top: 0;
+}
+
+.loader::before {
+    left: -3.5em;
+    animation-delay: -0.32s;
+}
+
+.loader::after {
+    left: 3.5em;
+}
+
+@keyframes loader {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+
+.profile-nav {
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    background-color: #666;
+}
+
+header > div {
+    font-family: 'Nunito', sans-serif;
+}
+
+a:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 2px black;
+}
+
+.navbar-img {
+    max-width: 20em;
+    width: 100%;
+}
+
+.btn-group {
+    font-family: 'Nunito', sans-serif;
+}
+
+.about-main {
+  background-image: url(../assets/background-4.png);
+  background-size: cover;
+  height: 90vh;
+  font-family: 'Nunito', sans-serif;
+}
+
+.about-title > h2 {
+  font-size: 6vw;
+  font-weight: 500;
+}
+
+.info-about {
+    background-color: rgba(125, 125, 125, 0.7);
+    font-size: 4vw;
+}
+
+.contact {
+    background-color: rgba(125, 125, 125, 0.7);
+    font-size: 3vw;
+}
+
+.contact > a:hover {
+  text-shadow: 2px 2px 2px white;
+}
+
+.previous {
+    font-family: 'Nunito', sans-serif;
+}
+
+.previous-title > h2 {
+    font-size: 6vw;
+}
+
+.previous-title > p{
+    font-size: 5vw;
+}
+
+.convention-1 {
+    background-image: url(../assets/convention-1.png);
+    background-size: cover;
+    font-size: 1.8em;
+}
+
+.convention-2 {
+    background-image: url(../assets/convention-2.png);
+    background-size: cover;
+    font-size: 1.8em;
+}
+
+.convention-1:hover,
+.convention-2:hover {
+  cursor: pointer;
+}
+
+.footer-img > img {
+  width: 25vw;
+}
+
+.footer-info {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8em;
+}
