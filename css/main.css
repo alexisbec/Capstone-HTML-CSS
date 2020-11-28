@@ -48,8 +48,9 @@
   100% {
     box-shadow: 0 2.5em 0 -1.3em;
   }
+
   40% {
-   box-shadow: 0 2.5em 0 0;
+    box-shadow: 0 2.5em 0 0;
   }
 }
 
@@ -109,7 +110,7 @@ a:hover {
 }
 
 .act-cards > div {
-  background-color: rgba(255, 255 ,255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .act-img > img {

@@ -48,6 +48,7 @@
   100% {
     box-shadow: 0 2.5em 0 -1.3em;
   }
+
   40% {
     box-shadow: 0 2.5em 0 0;
   }
@@ -79,11 +80,12 @@ a:hover {
   font-family: 'Nunito', sans-serif;
 }
 
-.about-main {
+.tickets-main {
   background-image: url(../assets/background-5.png);
   background-size: cover;
   height: 90vh;
   font-family: 'Nunito', sans-serif;
+  font-size: 3vw;
 }
 
 .footer-img > img {
