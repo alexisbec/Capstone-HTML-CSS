@@ -4,7 +4,7 @@
   width: 100vw;
   height: 100vh;
   z-index: 9999;
-  transition: all 3s;
+  transition: all 2s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@
   border-radius: 50%;
   width: 2em;
   height: 2em;
-  animation: loader 3s infinite ease-in-out;
+  animation: loader 2s infinite ease-in-out;
 }
 
 .loader {
@@ -80,12 +80,39 @@ a:hover {
   font-family: 'Nunito', sans-serif;
 }
 
+.btn:focus {
+  box-shadow: none;
+}
+
 .tickets-main {
   background-image: url(../assets/background-5.png);
   background-size: cover;
   height: 90vh;
   font-family: 'Nunito', sans-serif;
   font-size: 3vw;
+}
+
+.tickets-title > h2 {
+  font-size: 7vw;
+}
+
+.tickets-title > div {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 3.5vw;
+}
+
+.art-tickets {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3vw;
+}
+
+.art-tickets-title > h2 {
+  font-size: 7vw;
+}
+
+.art-tickets-title > div {
+  background-color: rgba(130, 130, 130, 0.3);
+  font-size: 3.5vw;
 }
 
 .footer-img > img {
