@@ -110,7 +110,6 @@
   }
 }
 
-
 /* Tickets Page */
 
 @media screen and (min-width: 1024px) {
@@ -121,12 +120,12 @@
   .tickets-title > h2 {
     font-size: 2.3vw;
   }
-  
+
   .tickets-title > div {
     font-size: 1vw;
   }
 
-  .art-tickets{
+  .art-tickets {
     font-size: 1vw;
   }
 
@@ -147,12 +146,12 @@
   .tickets-title > h2 {
     font-size: 4vw;
   }
-  
+
   .tickets-title > div {
     font-size: 1.5vw;
   }
 
-  .art-tickets{
+  .art-tickets {
     font-size: 1.6vw;
   }
 
