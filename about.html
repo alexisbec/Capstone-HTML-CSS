@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About WOW!</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
@@ -19,15 +18,17 @@
         <div class="loader"></div>
     </div>
 
-    <div class="profile-nav bg-dark p-1 d-none d-lg-block">
-        <div class="container d-flex justify-content-end">
-            <a><i class="fab fa-facebook-f text-secondary"></i></a>
-            <a><i class="fab fa-twitter ml-4 text-secondary"></i></a>
-            <a class="ml-4 text-secondary text-decoration-none">Language</a>
-            <a class="ml-4 text-secondary text-decoration-none">My Profile</a>
-            <a class="ml-4 text-secondary text-decoration-none">Logout</a>
+    <nav>
+        <div class="profile-nav bg-dark p-1 d-none d-lg-block">
+            <div class="container d-flex justify-content-end text-secondary">
+                <a><i class="fab fa-facebook-f"></i></a>
+                <a><i class="fab fa-twitter ml-4"></i></a>
+                <a class="ml-4 text-decoration-none text-secondary">Language</a>
+                <a class="ml-4 text-decoration-none text-secondary">My Profile</a>
+                <a class="ml-4 text-decoration-none text-secondary">Logout</a>
+            </div>
         </div>
-    </div>
+    </nav>
     <header class="sticky-top">
         <div class="container d-lg-none">
             <div class="d-flex align-items-center">
@@ -36,13 +37,13 @@
                 </div>
                 <div class="btn-group">
                     <button type="button" class="btn p-1 border-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="hamburguer text-white p-1">
+                        <span class="hamburguer text-danger p-1">
                             <i class="fas fa-bars fa-2x"></i>
                         </span>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right border-0 bg-transparent">
-                        <a href="about.html" class="text-white text-decoration-none dropdown-item font-weight-bolder bg-secondary p-3 m-1">About</a>
-                        <a href="tickets.html" class="text-white text-decoration-none dropdown-item font-weight-bolder bg-secondary p-3 m-1">Tickets</a>
+                        <a href="about.html" class="text-white text-decoration-none dropdown-item font-weight-bolder p-3 m-1 mt-3 border border-danger rounded">About</a>
+                        <a href="tickets.html" class="text-white text-decoration-none dropdown-item font-weight-bolder p-3 m-1 mt-3 border border-danger rounded">Tickets</a>
                     </div>
                 </div>
             </div>
@@ -53,74 +54,76 @@
                     <a href="main.html"><img src="assets/logo.png" alt="logo" class="w-25"></a>
                 </div>
                 <div class="navbar-info">
-                    <a href="about.html" class="text-white text-decoration-none ml-4 btn">About</a>
-                    <a href="tickets.html" class="text-white text-decoration-none ml-4 btn">Tickets</a>
-                    <a href="tickets.html" class="text-decoration-none text-white ml-4 btn btn-secondary">Get Tickets</a>
+                    <a href="about.html" class="text-danger font-weight-bolder text-decoration-none ml-4 btn">About</a>
+                    <a href="tickets.html" class="text-danger font-weight-bolder text-decoration-none ml-4 btn">Tickets</a>
+                    <a href="tickets.html" class="text-decoration-none ml-4 btn btn-danger">Get Tickets</a>
                 </div>
             </div>
         </div>
     </header>
-    <div class="about-main d-flex justify-content-center align-items-center text-center">
-        <div class="about-title container text-white">
-            <h2 class="text-capitalize font-weight-bolder mb-5">wow! comic-con mexico 2020</h2>
-            <p class="info-about rounded p-5 mb-5">The  WOW! Convention (Comic-Con International) is a Mexico Nonprofit Public Benefit Corporation organized for charitable purposes and dedicated to creating the general public’s awareness of and appreciation for comics and related popular art forms, including participation in and support of public presentations, conventions, exhibits, museums and other public outreach activities which celebrate the historic and ongoing contribution of comics to art and culture.</p>
-            <p class="contact p-3 rounded">Please contact us per Email for any further questions about WOW! Comic-Con Mexico 2020 in <a class="text-dark font-weight-bolder">comic-con@wow.com ></a></p>
-        </div>
-    </div>
-    <section class="border border-secondary">
-        <h2 class="sr-only">History</h2>
-        <div class="container">
-            <div class="history d-flex flex-column flex-md-row justify-content-center align-items-center p-5">
-                <div class="hist-img text-center my-5">
-                    <img src="assets/logo.png" alt="history-logo">
-                </div>
-                <div class="hist-info text-secondary font-weight-bolder my-3">
-                    <h3>With more than 20 years of experience and tens of thousands of attendees and with the best guests in each edition, WOW! Comic-Con International is the main world reference in terms of entertainment conventions.</h3>
-                </div>
+    <main>
+        <div class="about-main d-flex justify-content-center align-items-center text-center">
+            <div class="about-title container text-white">
+                <h1 class="text-capitalize font-weight-bolder mb-5 text-danger">wow! comic-con mexico 2020</h1>
+                <p class="info-about rounded p-5 mb-5">The  WOW! Convention (Comic-Con International) is a Mexico Nonprofit Public Benefit Corporation organized for charitable purposes and dedicated to creating the general public’s awareness of and appreciation for comics and related popular art forms, including participation in and support of public presentations, conventions, exhibits, museums and other public outreach activities which celebrate the historic and ongoing contribution of comics to art and culture.</p>
+                <p class="contact p-3 rounded">Please contact us per Email for any further questions about WOW! Comic-Con Mexico 2020 in <a class="text-danger font-weight-bolder">comic-con@wow.com ></a></p>
             </div>
         </div>
-    </section>
-    <section class="bg-primary previous">
-        <h2 class="sr-only text-capitalize">previous versions</h2>
-        <div class="container d-flex flex-column justify-content-center align-items-center">
-            <div class="previous-title text-center">
-                <h2 class="text-capitalize text-white font-weight-bolder m-3 p-3">previous versions</h2>
-                <p class="font-weight-bold mb-5">Take a look at the last two WOW! Comic-Con International edicions</p>
-            </div>
-            <div class="row img-container font-weight-bold text-white mx-auto d-flex justify-content-center align-items-center">
-                <div class="col-xs-12 col-lg convention-1 text-center p-5 my-4 mx-2">
-                    <p class="p-5">WOW! Comic-Con 2017</p>
-                </div>
-                <div class="col-xs-12 col-lg convention-2 text-center p-5 my-4 mx-2">
-                    <p class="p-5">WOW! Comic-Con 2019</p>
+        <section class="history border border-secondary">
+            <h2 class="sr-only">History</h2>
+            <div class="container">
+                <div class="d-flex flex-column flex-md-row justify-content-center align-items-center p-5">
+                    <div class="hist-img text-center my-5">
+                        <img src="assets/logo.png" alt="history-logo">
+                    </div>
+                    <div class="hist-info font-weight-bolder my-3">
+                        <h3>With more than 20 years of experience and tens of thousands of attendees and with the best guests in each edition, WOW! Comic-Con International is the main world reference in terms of entertainment conventions.</h3>
+                    </div>
                 </div>
             </div>
-            <div class="m-5">
-                <button type="button" class="btn btn-secondary text-capitalize font-weight-bold">see all the images</button>
+        </section>
+        <section class="previous bg-danger">
+            <h2 class="sr-only text-capitalize">previous versions</h2>
+            <div class="container d-flex flex-column justify-content-center align-items-center">
+                <div class="previous-title text-center">
+                    <h2 class="text-capitalize font-weight-bolder my-3 py-3">previous versions</h2>
+                    <p class="font-weight-bold mb-5 text-white">Take a look at the last two WOW! Comic-Con International edicions</p>
+                </div>
+                <div class="row img-container font-weight-bold text-white mx-auto d-flex justify-content-center align-items-center">
+                    <div class="col-xs-12 col-lg convention-1 text-center p-5 my-4 mx-2">
+                        <p class="p-5">WOW! Comic-Con 2017</p>
+                    </div>
+                    <div class="col-xs-12 col-lg convention-2 text-center p-5 my-4 mx-2">
+                        <p class="p-5">WOW! Comic-Con 2019</p>
+                    </div>
+                </div>
+                <div class="m-5">
+                    <button type="button" class="btn btn-dark text-capitalize font-weight-bold">see all the images</button>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="partners pb-3">
-        <h2 class="sr-only">Colaborations</h2>
-        <div class="d-flex align-items-center justify-content-center">
-            <h2 class="mt-5 font-weight-bold text-white border-bottom border-primary pb-3 mb-5">Colaborations</h2>
-        </div>
-        <div class="mx-auto partners-logos d-flex align-items-center justify-content-center flex-wrap">
-            <img class="m-4" src="assets/marvel-logo.png" alt="marvel-logo">
-            <img class="m-4" src="assets/dc-logo.png" alt="dc-logo">
-            <img class="m-4" src="assets/image-logo.png" alt="image-logo">
-            <img class="m-4" src="assets/dark-logo.png" alt="dark-horse-logo">
-            <img class="m-4" src="assets/vertigo-logo.png" alt="vertigo-logo">
-        </div>
-    </section>
-    <footer class="p-5 bg-dark">
+        </section>
+        <section class="partners pb-3">
+            <h2 class="sr-only">Colaborations</h2>
+            <div class="d-flex align-items-center justify-content-center">
+                <h2 class="mt-5 font-weight-bold text-white border-bottom border-danger pb-3 mb-5">Colaborations</h2>
+            </div>
+            <div class="mx-auto partners-logos d-flex align-items-center justify-content-center flex-wrap">
+                <img class="m-4" src="assets/marvel-logo.png" alt="marvel-logo">
+                <img class="m-4" src="assets/dc-logo.png" alt="dc-logo">
+                <img class="m-4" src="assets/image-logo.png" alt="image-logo">
+                <img class="m-4" src="assets/dark-logo.png" alt="dark-horse-logo">
+                <img class="m-4" src="assets/vertigo-logo.png" alt="vertigo-logo">
+            </div>
+        </section>
+    </main>
+    <footer class="p-2 bg-dark">
         <div class="container d-flex align-items-center mx-auto">
             <div class="footer-img col-lg-4">
                 <img src="assets/logo.png" alt="logo-footer">
             </div>
-            <div class="footer-info col-lg-8">
-                <h4 class="text-uppercase text-white font-weight-bolder">2020 wow! comic-con international. all rights reserved.</h4>
-                <h4 class="font-weight-bold text-secondary mt-3 d-none d-lg-block">By continuing to browse, I declare that I know and agree with the <a class="text-primary">Privacy Policy</a> and express my consent to the supply and processing of data for the purposes contained therein.</h4>
+            <div class="footer-info col-lg-8 align-middle">
+                <p class="text-uppercase text-white font-weight-bolder my-auto">2020 wow! comic-con international. all rights reserved.</p>
+                <p class="font-weight-bold text-secondary mt-3 d-none d-lg-block">By continuing to browse, I declare that I know and agree with the <a class="text-danger">Privacy Policy</a> and express my consent to the supply and processing of data for the purposes contained therein.</p>
             </div>
         </div>
     </footer>

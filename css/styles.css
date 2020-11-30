@@ -1,0 +1,285 @@
+.loader_container {
+  background-color: #777;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader,
+.loader::before,
+.loader::after {
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  animation: loader 1s infinite ease-in-out;
+}
+
+.loader {
+  color: #555;
+  font-size: 1.5em;
+  position: relative;
+  animation-delay: -0.16s;
+}
+
+.loader::before,
+.loader::after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+
+.loader::before {
+  left: -3.5em;
+  animation-delay: -0.32s;
+}
+
+.loader::after {
+  left: 3.5em;
+}
+
+@keyframes loader {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+
+.dropdown-menu > a {
+  background-color: #30475e;
+}
+
+.profile-nav {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background-color: #30475e;
+}
+
+header > div {
+  font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+  cursor: pointer;
+  text-shadow: 2px 2px 2px #30475e;
+}
+
+.navbar-img {
+  max-width: 20em;
+  width: 100%;
+}
+
+.btn-group {
+  font-family: 'Lato', sans-serif;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.main {
+  background-image: url(../assets/background.png);
+  background-size: cover;
+  height: 90vh;
+  font-family: 'Lato', sans-serif;
+}
+
+.title > h2 {
+  font-size: 5vw;
+  font-weight: 500;
+}
+
+.title > h1 {
+  font-size: 6vw;
+  padding: 0.5em 0 0.8em 0;
+}
+
+.date > h3 {
+  font-size: 6vw;
+}
+
+.info {
+  font-size: 4vw;
+  border: 3px solid white;
+  padding: 1em;
+}
+
+.act {
+  background-image: url(../assets/background-2.png);
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+.act-cards > div {
+  background-color: rgba(255, 255, 255, 0.1);
+  max-height: 19em;
+}
+
+.act-cards > div:hover {
+  cursor: pointer;
+}
+
+.act-img > img {
+  width: 5em;
+}
+
+.act-title > h2 {
+  font-size: 5vw;
+}
+
+.act-info > p {
+  font-size: 4vw;
+}
+
+.art {
+  background-color: #d3d3d3;
+  height: 80vh;
+  font-family: 'Lato', sans-serif;
+}
+
+.art-img > img {
+  width: 12vh;
+}
+
+.art-info {
+  font-size: 0.9em;
+}
+
+.partners {
+  background: #30475e;
+  font-family: 'Lato', sans-serif;
+}
+
+.partners-logos > img {
+  width: auto;
+  height: 8vh;
+}
+
+.footer-img > img {
+  width: 25vw;
+}
+
+.footer-info > p {
+  font-family: 'Lato', sans-serif;
+  font-size: 3vw;
+}
+
+/* About page */
+
+.about-main {
+  background-image: url(../assets/background-4.png);
+  background-size: cover;
+  height: 90vh;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-title > h1 {
+  font-size: 6vw;
+  font-weight: 500;
+}
+
+.info-about {
+  font-size: 4vw;
+}
+
+.contact {
+  font-size: 3vw;
+}
+
+.contact > a:hover {
+  text-shadow: 2px 2px 2px #30475e;
+}
+
+.history {
+  font-family: 'Lato', sans-serif;
+  font-size: 4.5vw;
+  background-color: #d3d3d3;
+}
+
+.hist-img > img {
+  width: 70%;
+}
+
+.hist-info > h3 {
+  font-size: 5vw;
+  color: #30475e;
+}
+
+.previous {
+  font-family: 'Lato', sans-serif;
+}
+
+.previous-title > h2 {
+  font-size: 6vw;
+  color: #30475e;
+}
+
+.previous-title > p {
+  font-size: 5vw;
+}
+
+.convention-1 {
+  background-image: url(../assets/convention-1.png);
+  background-size: cover;
+  font-size: 1.8em;
+}
+
+.convention-2 {
+  background-image: url(../assets/convention-2.png);
+  background-size: cover;
+  font-size: 1.8em;
+}
+
+.convention-1:hover,
+.convention-2:hover {
+  cursor: pointer;
+}
+
+.btn-dark {
+  background-color: #30475e;
+}
+
+/* Tickets page */
+
+.tickets-main {
+  background-image: url(../assets/background-5.png);
+  background-size: cover;
+  height: 90vh;
+  font-family: 'Lato', sans-serif;
+  font-size: 3vw;
+}
+
+.tickets-title > h1 {
+  font-size: 7vw;
+}
+
+.tickets-title > div {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 3.5vw;
+}
+
+.art-tickets {
+  font-family: 'Lato', sans-serif;
+  font-size: 3vw;
+  background-color: #d3d3d3;
+}
+
+.art-tickets-title > h2 {
+  font-size: 7vw;
+}
+
+.art-tickets-title > div {
+  background-color: rgba(130, 130, 130, 0.3);
+  font-size: 3.5vw;
+}

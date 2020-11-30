@@ -9,8 +9,21 @@
     font-size: 3.5vw;
   }
 
+  .date > h3 {
+    font-size: 3.5vw;
+  }
+  
+
   .info {
     font-size: 1.5vw;
+  }
+
+  .act-title > h2 {
+    font-size: 1.5vw;
+  }
+  
+  .act-info > p {
+    font-size: 1vw;
   }
 
   .art-img > img {
@@ -29,8 +42,8 @@
     width: 15vw;
   }
 
-  .footer-info {
-    font-size: 1.2em;
+  .footer-info > p {
+    font-size: 1vw;
   }
 }
 
@@ -43,28 +56,41 @@
     font-size: 5vw;
   }
 
+  .date > h3 {
+    font-size: 5vw;
+  }
+  
+
   .info {
     font-size: 3vw;
+  }
+
+  .act-title > h2 {
+    font-size: 3vw;
+  }
+  
+  .act-info > p {
+    font-size: 1.5vw;
   }
 
   .art-img > img {
     width: 13vh;
   }
 
-  .footer-info {
-    font-size: 1.1em;
+  .footer-info > p {
+    font-size: 1.7vw;
   }
 }
 
 /* About Page */
 
 @media screen and (min-width: 1024px) {
-  .about-title > h2 {
+  .about-title > h1 {
     font-size: 3vw;
   }
 
   .info-about {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
   }
 
   .contact {
@@ -75,29 +101,37 @@
     font-size: 1.8vw;
   }
 
+  .hist-info > h3 {
+    font-size: 1.5vw;
+  }
+
   .previous-title > h2 {
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 
   .previous-title > p {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
-  .about-title > h2 {
+  .about-title > h1 {
     font-size: 4vw;
   }
 
   .info-about {
-    font-size: 3vw;
+    font-size: 2.7vw;
   }
 
   .contact {
-    font-size: 2.5vw;
+    font-size: 2.3vw;
   }
 
   .history {
+    font-size: 3vw;
+  }
+
+  .hist-info > h3 {
     font-size: 3vw;
   }
 
@@ -117,7 +151,7 @@
     font-size: 1vw;
   }
 
-  .tickets-title > h2 {
+  .tickets-title > h1 {
     font-size: 2.3vw;
   }
 
@@ -143,7 +177,7 @@
     font-size: 1.6vw;
   }
 
-  .tickets-title > h2 {
+  .tickets-title > h1 {
     font-size: 4vw;
   }
 
