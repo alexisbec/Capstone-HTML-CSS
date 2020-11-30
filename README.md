@@ -11,7 +11,7 @@ A fully responsive page for my capstone project, taking by inspiration a comic c
 
 ![screenshot](https://github.com/alexisbec/Capstone-HTML-CSS/blob/feature/assets/mobile-screenshot.png)
 
-For this project I was required to create a page which can be used as a conference page, so I decided to create a new whole event inspired in a topic that I enjoy. In the page you will find a main page, where you can find a resume of what's the event about. Then, you will find the about page, where there is a better structured description of the whole event. And, at the end, you will find the tickets age, where you can select the different types of tickets that you can buy to assiste to the event.
+For this project, I was required to create a page that can be used as a conference page, so I decided to create a new whole event inspired by a topic that I enjoy. On the page, you will find the main page, where you can find a resume of what's the event about. Then, you will find the about page, where there is a better-structured description of the whole event. And, in the end, you will the age of the ticket, where you can select the different types of tickets that you can buy to assist to the event.
 
 The website is built with the Bootstrap Grid System to make the page a full responsive design. Also, I tried to use the basic colors from Bootstrap to get a better color palette, and finally, I used the basic buttons and tables from Bootstrap to reach a better look & feel for the website. And for the other different elements, I gave them style by using the CSS box system, and in some elements, I place them using flex and float dislay values.
 
