@@ -1,0 +1,197 @@
+/* Main Page */
+
+@media screen and (min-width: 1024px) {
+  .title > h2 {
+    font-size: 2.5vw;
+  }
+
+  .title > h1 {
+    font-size: 3.5vw;
+  }
+
+  .date > h3 {
+    font-size: 3.5vw;
+  }
+
+  .info {
+    font-size: 1.5vw;
+  }
+
+  .act-title > h2 {
+    font-size: 1.5vw;
+  }
+
+  .act-info > p {
+    font-size: 1vw;
+  }
+
+  .art-img > img {
+    width: 13vh;
+  }
+
+  .art-info {
+    font-size: 1.1em;
+  }
+
+  .partners-logos {
+    margin-bottom: 2.5em;
+  }
+
+  .footer-img > img {
+    width: 15vw;
+  }
+
+  .footer-info > p {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .title > h2 {
+    font-size: 4vw;
+  }
+
+  .title > h1 {
+    font-size: 5vw;
+  }
+
+  .date > h3 {
+    font-size: 5vw;
+  }
+
+  .info {
+    font-size: 3vw;
+  }
+
+  .act-title > h2 {
+    font-size: 3vw;
+  }
+
+  .act-info > p {
+    font-size: 1.5vw;
+  }
+
+  .art-img > img {
+    width: 13vh;
+  }
+
+  .footer-info > p {
+    font-size: 1.7vw;
+  }
+}
+
+/* About Page */
+
+@media screen and (min-width: 1024px) {
+  .about-title > h1 {
+    font-size: 3vw;
+  }
+
+  .info-about {
+    font-size: 1.5vw;
+  }
+
+  .contact {
+    font-size: 1.5vw;
+  }
+
+  .history {
+    font-size: 1.8vw;
+  }
+
+  .hist-info > h3 {
+    font-size: 1.5vw;
+  }
+
+  .previous-title > h2 {
+    font-size: 2.5vw;
+  }
+
+  .previous-title > p {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .about-title > h1 {
+    font-size: 4vw;
+  }
+
+  .info-about {
+    font-size: 2.7vw;
+  }
+
+  .contact {
+    font-size: 2.3vw;
+  }
+
+  .history {
+    font-size: 3vw;
+  }
+
+  .hist-info > h3 {
+    font-size: 3vw;
+  }
+
+  .previous-title > h2 {
+    font-size: 4vw;
+  }
+
+  .previous-title > p {
+    font-size: 3vw;
+  }
+}
+
+/* Tickets Page */
+
+@media screen and (min-width: 1024px) {
+  .tickets-main {
+    font-size: 1vw;
+  }
+
+  .tickets-title > h1 {
+    font-size: 2.3vw;
+  }
+
+  .tickets-title > div {
+    font-size: 1vw;
+  }
+
+  .art-tickets {
+    font-size: 1vw;
+  }
+
+  .art-tickets-title > h2 {
+    font-size: 2.3vw;
+  }
+
+  .art-tickets-title > div {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .tickets-main {
+    font-size: 1.6vw;
+  }
+
+  .tickets-title > h1 {
+    font-size: 4vw;
+  }
+
+  .tickets-title > div {
+    font-size: 1.5vw;
+  }
+
+  .art-tickets {
+    font-size: 1.6vw;
+  }
+
+  .art-tickets-title > h2 {
+    font-size: 4vw;
+  }
+
+  .art-tickets-title > div {
+    font-size: 1.5vw;
+  }
+}
